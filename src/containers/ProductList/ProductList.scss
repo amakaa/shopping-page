@@ -1,0 +1,19 @@
+span {
+  font-size: 12px !important;
+  font-weight: bold !important;
+}
+
+@media (min-width: 280px) and (max-width: 720px) {
+  table  {
+    display: table !important;
+  }
+
+  .image-sm {
+    width: 50px !important;
+  }
+
+  .table-sm,
+  .thead-sm {
+    padding: 4px 10px 4px 10px !important;
+  }
+}
